@@ -1,7 +1,0 @@
-﻿%% Methodology
-1. Get all data sets. 
-2. Normalize data sets using the linear normalization.		
-3. Apply the Normalization/Labelling scheme to get data sets in labels terms.
-4. Use Weka 3.8 to get clusters using E/M clustering and by varing the hyperparameter std-deviation delta.  
-5. For different delta values in [10^-3,10^-2,10^-1,1] LSTM neural network layers can be configured with #clusters for each delta.
-6. Apply the python code for LSTM NN model to train, test and finally predict RUL values. 
